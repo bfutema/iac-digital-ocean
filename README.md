@@ -23,7 +23,7 @@ terraform validate
 ### Plan terraform
 
 ```bash
-terraform plan
+terraform plan -var="do_token=[YOUR_DIGITALOCEAN_TOKEN_HERE]"
 ```
 
 ### Apply terraform
